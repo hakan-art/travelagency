@@ -3,7 +3,7 @@ body
     margin: 0;
     padding: 0;
 }
-section
+#home
 {
     position: relative;
   width: 100%;
@@ -20,4 +20,32 @@ h1
    transform: translate(-50%, -50%);
 
    
+}
+#about
+{   position: relative;
+    height: 100vh;
+}
+h2
+{
+    position: absolute;
+    font-size: 3em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p{
+    position: absolute;
+    width: 60vw;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: justify;
+}
+a{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: 10%;
+    text-decoration: none;
+    font-size: 3em;
+    color: orange;
 }
